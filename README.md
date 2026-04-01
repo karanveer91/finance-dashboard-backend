@@ -245,6 +245,20 @@ GET /dashboard
 
 ---
 
+## GIThub paste code
+'''
+git init
+git add README.md :- is not compulsory
+git commit -m "first commit" name. kuch. bhi de sakte ho like:- "Initial commit - Finance dashboard backend API"
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/karanveer91/finance-dashboard-backend.git
+git branch -M main
+git push -u origin main
+
+'''
+
 ## Conclusion
 
 This project demonstrates a structured backend system that handles financial data, user roles, and dashboard analytics.
