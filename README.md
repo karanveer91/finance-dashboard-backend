@@ -184,6 +184,15 @@ After starting the server, open:
 ```
 #paste in terminal:-
 
+## cd ~/Downloads/finance_backend/finance_backend
+
+## ls
+
+## source venv/bin/activate
+
+## uvicorn main:app --reload
+---------------------------------------------------------
+
 source venv/bin/activate
 pip install -r requirements.txt
 uvicorn main:app --reload
@@ -191,7 +200,10 @@ uvicorn main:app --reload
 ```
 
 ```
-http://127.0.0.1:8000/docs
+## http://127.0.0.1:8000
+
+## http://127.0.0.1:8000/docs 
+
 ```
 
 FastAPI automatically generates interactive API documentation using Swagger UI.
