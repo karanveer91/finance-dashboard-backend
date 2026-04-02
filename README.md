@@ -155,7 +155,9 @@ Lists all project dependencies.
 ### 1. Clone the repository
 
 ```
-git clone <repository-link>
+## git clone <repository-link > 
+
+## git clone https://github.com/karanveer91/finance-dashboard-backend.git
 ```
 
 ### 2. Navigate to the project folder
@@ -167,7 +169,7 @@ cd finance_backend
 ### 3. Install dependencies
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### 4. Run the server
@@ -194,7 +196,7 @@ After starting the server, open:
 ---------------------------------------------------------
 
 source venv/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 uvicorn main:app --reload
 
 ```
